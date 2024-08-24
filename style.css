@@ -20,3 +20,27 @@ canvas {
 #health, #score, #level {
     margin-bottom: 10px;
 }
+
+#controls {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 50px);
+    grid-template-rows: repeat(2, 50px);
+    gap: 10px;
+}
+
+#controls button {
+    background-color: #555555;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+#controls button:active {
+    background-color: #444444;
+}
