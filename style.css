@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #333333; /* Dark background for dungeon theme */
+    color: #ffffff; /* White text color */
+    font-family: Arial, sans-serif;
+}
+
+canvas {
+    display: block;
+}
+
+#ui {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 18px;
+}
+
+#health, #score, #level {
+    margin-bottom: 10px;
+}
