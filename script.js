@@ -178,6 +178,7 @@ const touchControls = {
     attack: false
 };
 
+// Keyboard controls
 document.addEventListener('keydown', (e) => {
     keys[e.key] = true;
 });
@@ -185,6 +186,7 @@ document.addEventListener('keyup', (e) => {
     keys[e.key] = false;
 });
 
+// Mobile controls
 document.getElementById('moveLeft').addEventListener('touchstart', () => touchControls.moveLeft = true);
 document.getElementById('moveLeft').addEventListener('touchend', () => touchControls.moveLeft = false);
 document.getElementById('moveRight').addEventListener('touchstart', () => touchControls.moveRight = true);
